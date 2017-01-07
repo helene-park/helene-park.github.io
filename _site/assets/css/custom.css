@@ -1,0 +1,328 @@
+
+/* ==== GENERAL ==== */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+
+strong { 
+    font-style: italic;
+    color: #000000;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  }
+
+body {
+  margin-top: 0px;
+  font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* ==== GLOBAL ==== */
+h1,h2,h3,h4,h5,h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1,h2 {
+  margin: 0 0 40px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+
+/* ==== HERO ==== */
+#hero {
+  background:url('../img/hero_bg.jpg') no-repeat center center;
+  min-height:100%;
+  color: white;
+  background-size:cover;
+  text-align: center; 
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+#hero img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* ==== RESUME ====*/
+#resume {
+  text-align: center;
+}
+.resume-element img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
+blockquote {
+  padding: 0;
+  color: #555;
+  border: none;
+  text-align: left;
+  padding-bottom: 20px;
+}
+#name{
+  text-align: left;
+  color: #5e9516;
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+#role{
+  text-align: left;
+  color: #37c;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+#place{
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+  font-size: 19px;
+  padding-bottom: 3px;
+}
+/* ==== Footer ====*/
+footer {
+  background: none;
+  color: #000000;
+  padding: 10px 0 10px;
+  font-size: 12px;
+}
+
+
+/* ==== BLOG ==== */
+.blog-image {  
+  display: table;
+  width: 100%;
+}
+.blog-image-default {
+  background: url('../img/blog-bg.jpg') no-repeat;
+  background-size: cover;
+}
+#blog-title{
+  text-align: center;
+  color: #ffffff;
+}
+
+.post, .widget, #comments {
+  position: relative;
+  border: solid 1px #ddd;
+  background: white;
+  margin: 0 0 40px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#primary {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+.post, .widget, #comments {
+  position: relative;
+  border: solid 1px #ddd;
+  background: white;
+  margin: 0 0 40px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.post header,
+.post .post-excerpt,
+.post .post-body,
+#comments .comments-wrap {
+  padding: 20px;
+}
+
+.post header h3 {
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  border-bottom: solid 1px #ddd;
+}
+
+.post header h1 {
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  border-bottom: solid 1px #ddd;
+  font-size: 24px;
+}
+
+.post-image img{
+  width: 100%;
+}
+
+#post-preview img{
+  padding-bottom: 15px;
+} 
+
+.post-details {
+  font-size: 12px;
+  width: 90%;
+}
+
+.post-details i.fa {
+  padding-left: 10px;
+}
+
+.post-details i.fa:first-child {
+  padding: 0;
+}
+
+/* posts--------*/
+.entry{
+  overflow:hidden;
+}
+.mdimage{
+  width: 100%;
+}
+#disqus-layout{
+  padding-top: 50px;
+
+}
+
+/* Resources */
+.resource-image {  
+  display: table;
+  width: 100%;
+}
+.resource-image-default {
+  background: url('../img/resource-bg.jpg') no-repeat;
+  background-size: cover;
+}
+#resource-title{
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.resource {
+  width: 31.33333333%;
+  float: left;
+  margin: 0 3% 40px 0;
+}
+
+.resource:nth-child(3n) {
+  margin-right: 0;
+}
+.resource img{
+  width: 100%;
+}
+
+/* ==== NAVBAR ===== */
+/*navbar generated from http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0*/
+.navbar-default {
+  background: none;
+  border-width: 0px;
+}
+.navbar-default .navbar-brand {
+  color: #c1d6db;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffbbbc;
+}
+.navbar-default .navbar-text {
+  color: #c1d6db;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #c1d6db;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffbbbc;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background: none;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #c1d6db;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffbbbc;
+  background: none;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background: none;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffbbbc;
+  background: none;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffbbbc;
+  background: none;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffbbbc;
+  background: none;
+}
+.navbar-default .navbar-toggle {
+  background: none;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  background: none;
+}
+.navbar-default .navbar-link {
+  color: #c1d6db;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffbbbc;
+}
+
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #c1d6db;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffbbbc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffbbbc;
+    background: none;
+  }
+}

@@ -1,0 +1,565 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"time",
+				"timestep"
+			],
+			[
+				"len",
+				"len_bucket"
+			],
+			[
+				"midi_l",
+				"midi_lists"
+			],
+			[
+				"iter",
+				"iteration"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/MK/GitHub/mk-minchul.github.io/blog.html",
+			"settings":
+			{
+				"buffer_size": 4266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MK/GitHub/mk-minchul.github.io/index.html",
+			"settings":
+			{
+				"buffer_size": 5802,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MK/Downloads/test/index.php",
+			"settings":
+			{
+				"buffer_size": 54,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MK/GitHub/mk-minchul.github.io/_posts/2014-3-3-cuda8gtx1070.md",
+			"settings":
+			{
+				"buffer_size": 3466,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/MK/GitHub/mk-minchul.github.io",
+		"/Users/MK/GitHub/mk-minchul.github.io/_posts"
+	],
+	"file_history":
+	[
+		"/Users/MK/GitHub/mk-minchul.github.io/_layouts/post.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/blog.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/_config.yml",
+		"/Users/MK/GitHub/mk-minchul.github.io/_posts/2016-1-2-How-To-Install-CUDA-Toolkit-8-For-GTX-1070-on-Ubuntu.md",
+		"/Users/MK/Dropbox/Academics/WebDesign/B2W Final Course Files/C - Final Static Website/B2W - Static/index.html",
+		"/Users/MK/Dropbox/Academics/WebDesign/B2W Final Course Files/C - Final Static Website/B2W - Static/contact.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/_site/about/index.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/_layouts/page.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/_site/index.html",
+		"/Users/MK/Dropbox/Academics/WebDesign/B2W Final Course Files/C - Final Static Website/B2W - Static/post.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/assets/css/custom.css",
+		"/Users/MK/Downloads/jekyll-now-master/index.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/_site/sitemap.xml",
+		"/Users/MK/GitHub/mk-minchul.github.io/index.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/_site/blog.html",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/mdk/static/assets/css/custom.css",
+		"/Users/MK/GitHub/mk-minchul.github.io/_site/style.css",
+		"/Users/MK/GitHub/mk-minchul.github.io/_site/assets/css/custom.css",
+		"/Users/MK/GitHub/mk-minchul.github.io/assets/css/style.scss",
+		"/Users/MK/GitHub/mk-minchul.github.io/blog2.html",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/mdk/static/blog.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/_layouts/default.html",
+		"/Users/MK/GitHub/mk-minchul.github.io/gemfile",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/mdk/index.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/mdk/static/assets/css/font-awesome/css/font-awesome.css",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/mdk/wp-config.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/mdk/wp-config-sample.php",
+		"/Users/MK/Downloads/test/document/main/main.php",
+		"/Users/MK/Desktop/DoIt_Android_Rev2_Source_2015_02_15 2/Part2/chapter02/SampleParcelable/local.properties",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W20161222/wp-content/themes/twentyseventeen/inc/custom-header.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W20161222/wp-content/themes/twentyseventeen/template-parts/header/header-image.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W20161222/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W20161222/wp-content/themes/twentyseventeen/index.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W20161222/wp-content/themes/twentyseventeen/header.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W20161222/wp-content/themes/twentyseventeen/style.css",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W20161222/wp-content/themes/twentyseventeen/footer.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W20161222/wp-config-sample.php",
+		"/Users/MK/Dropbox/Academics/WebDesign/Practice/B2W/index.html",
+		"/Users/MK/anaconda/lib/python2.7/site-packages/PyInstaller/hooks/hook-PyQt4.py",
+		"/Users/MK/Desktop/final_run/run1/Run_all.py",
+		"/Users/MK/Desktop/parallel_2/music1/Run_all.py",
+		"/Users/MK/Desktop/final_run_done/Run_all.py",
+		"/Users/MK/Desktop/parallel_2/music5/Run_all.py",
+		"/Users/MK/Desktop/run_all_final_done/run_all/Run_all.py",
+		"/Users/MK/Desktop/run_all _amazon_without_correct_accuracy/run_all/Run_all.py",
+		"/Users/MK/Desktop/run_all _amazon_without_correct_accuracy 2_sample/run_all/Run_all.py",
+		"/Users/MK/Desktop/run_all_master_done_original/run_all_master/Run_all.py",
+		"/Users/MK/Desktop/run_all_1_done/run_all_1/Run_all.py",
+		"/Users/MK/Desktop/run/Run_all.py",
+		"/Users/MK/Desktop/run_all_finall/run_all_1/Run_all.py",
+		"/Users/MK/Desktop/run_all_finall/run_all_5/Run_all.py",
+		"/Users/MK/Desktop/run_all_finall/run_all_4/Run_all.py",
+		"/Users/MK/Desktop/run_all_finall/run_all_3/Run_all.py",
+		"/Users/MK/Desktop/run_all_finall/run_all_2/Run_all.py",
+		"/Users/MK/Dropbox/Academics/Machine Learning/udemy_lazyprogrammer_course/logistic_regression_class/logistic_train.py",
+		"/Users/MK/Desktop/run_all_2/util.py",
+		"/Users/MK/Desktop/run_all_2/Run_all.py",
+		"/Users/MK/Desktop/Proj212_master/RNN/code/single_run.py",
+		"/Users/MK/Desktop/Proj212_master/RNN/code/Run_all.py",
+		"/Users/MK/Desktop/run_all_1 2/Run_all.py",
+		"/Users/MK/Desktop/run_all_1/Run_all.py",
+		"/Users/MK/Desktop/run_all_master_done/run_all_master/util.py",
+		"/Users/MK/Desktop/run_all_master_done/run_all_master/Run_all.py",
+		"/Users/MK/Desktop/run_all_master/util.py",
+		"/Users/MK/Desktop/run_all_master/Run_all.py",
+		"/Users/MK/Desktop/Proj212_LargeLSTM/RNN/code/Run_all.py",
+		"/Users/MK/Desktop/run_all_thrid/Run_all.py",
+		"/Users/MK/Desktop/Proj212_master/RNN/code/util.py",
+		"/Users/MK/Desktop/run_all/Run_all.py",
+		"/Users/MK/Desktop/run_all/Proj212_0/RNN/code/util.py",
+		"/Users/MK/Desktop/Proj212_2_temp/RNN/code/single_run.py",
+		"/Users/MK/Desktop/Proj212_0/RNN/code/single_run.py",
+		"/Users/MK/GitHub/Proj212/History/16_run_all/Run_all.py",
+		"/Users/MK/Desktop/Proj212_LargeLSTM/RNN/code/single_run.py",
+		"/Users/MK/Desktop/Proj212/RNN/code/single_run.py",
+		"/Users/MK/Dropbox/Academics/Machine Learning/udemy_lazyprogrammer_course/supervised_class/util.py",
+		"/Users/MK/Desktop/Proj212_1/RNN/code/single_run.py",
+		"/Users/MK/Desktop/Proj212_1/RNN/code/Run_all.py",
+		"/Users/MK/GitHub/alarm-clock/alarmclock_svm.py",
+		"/Users/MK/Desktop/Proj212_1/RNN/code/util.py",
+		"/Users/MK/Desktop/Proj212_1/RNN/code/Bach_2LSTM_softmax129_20161028.py",
+		"/Users/MK/Dropbox/Academics/Machine Learning/udemy_lazyprogrammer_course/ann_class2/util.py",
+		"/Users/MK/Dropbox/Academics/Machine Learning/udemy_lazyprogrammer_course/ann_class2/dropout_tensorflow.py",
+		"/Users/MK/Desktop/run_all/util.py",
+		"/Users/MK/Desktop/M_run_all/util.py",
+		"/Users/MK/Desktop/M_run_all/Run_all.py",
+		"/Users/MK/Desktop/Proj212_M/RNN/code/Bach_2LSTM_softmax129_20161028.py",
+		"/Users/MK/Desktop/Proj212_sigmoid_fs60_shift11/RNN/code/Bach_2LSTM_softmax129_20161028.py",
+		"/Users/MK/Desktop/Proj212/RNN/code/Bach_2LSTM_softmax129_20161028.py",
+		"/Users/MK/Desktop/Proj212_2layer_squash/RNN/code/Bach_2LSTM_softmax129_20161028.py",
+		"/Users/MK/Desktop/Proj212_2layer_squash/RNN/code/util.py",
+		"/Users/MK/Desktop/Proj212_2LSTM_sftmax_20161030_fs30/RNN/code/Bach_2LSTM_softmax129_20161028.py",
+		"/Users/MK/Desktop/Proj212_2LSTM_sftmax_20161030_fs30/RNN/code/util.py",
+		"/Users/MK/Desktop/Proj212_temp/RNN/code/Bach_2LSTM_softmax129_20161028.py",
+		"/Users/MK/Desktop/Proj212_temp/RNN/code/util.py",
+		"/Users/MK/Dropbox/Academics/SNU/BigDataCamp_Engineering/PythonTextSNSAnalysis/practice_code/practice2_naive_bayesian/code/sol/sentimental_Naive_bayesian_for_window-final.py",
+		"/Users/MK/Dropbox/Academics/SNU/BigDataCamp_Engineering/PythonTextSNSAnalysis/practice_code/practice1_senti_strength/code/run.py",
+		"/Users/MK/Desktop/Proj212/RNN/code/util.py",
+		"/Users/MK/Desktop/M_Proj212/RNN/code/util.py",
+		"/Users/MK/Desktop/M_Proj212/RNN/code/Bach_2LSTM_softmax129_20161028.py",
+		"/Users/MK/Desktop/Proj212_2layer/RNN/code/Bach_LSTM_sigmoid_20161028.py",
+		"/Users/MK/Desktop/master_Proj212/RNN/code/Bach_LSTM_sigmoid_20161028.py",
+		"/Users/MK/Desktop/Proj212_exp/RNN/code/util.py",
+		"/Users/MK/Desktop/master_Proj212/RNN/code/util.py",
+		"/Users/MK/Desktop/Proj212_exp/RNN/code/Bach_LSTM_sigmoid_20161028.py",
+		"/Users/MK/Desktop/Proj212/RNN/code/Bach_LSTM_sigmoid_20161028.py",
+		"/Users/MK/GitHub/Proj212/code/DataProcessing/project212_get_piano.py",
+		"/Users/MK/Dropbox/Academics/Machine Learning/udemy_lazyprogrammer_course/unsupervised_class2/autoencoder.py",
+		"/Users/MK/Dropbox/Academics/Machine Learning/udemy_lazyprogrammer_course/unsupervised_class2/util.py",
+		"/Users/MK/GitHub/Proj212/data/20161021_piano/Proj212/data/20161021_piano/Keras_LSTM_double_layer_one_hot_v1.py",
+		"/Users/MK/GitHub/Proj212/data/20161021_piano/Keras_LSTM_double_layer_one_hot_v1.py",
+		"/usr/local/Cellar/opencv/2.4.12/lib/python2.7/site-packages/cv.py",
+		"/Users/MK/GitHub/biaxial-rnn-music-composition/main.py",
+		"/Users/MK/Downloads/rpy2-2.8.3/setup.py",
+		"/Users/MK/Dropbox/Academics/Machine Learning/CV/Motion_Detect_Project/motion_detector.py",
+		"/Users/MK/GitHub/keras/keras/layers/recurrent.py",
+		"/Users/MK/Dropbox/Academics/PT/IntroToPython_201609/Lecture_5_new/fixme.py",
+		"/Users/MK/Downloads/black jack_1.py",
+		"/Users/MK/Dropbox/Academics/PT/IntroToPython_201609/Lecture4/fixme.py",
+		"/Users/MK/Dropbox/Academics/PT/IntroToPython_201609/Lecture_on_qt/Cralwer.py",
+		"/Users/MK/Dropbox/Academics/PT/IntroToPython_201609/Lecture_on_qt/stock.py",
+		"/Users/MK/GitHub/machine_learning_examples/logistic_regression_class/logistic1.py",
+		"/Users/MK/Dropbox/Academics/PT/IntroToPython_201609/Lecture3/fixme.py",
+		"/Users/MK/Dropbox/Academics/PT/IntroToPython_201609/Lecture2/fixme.py",
+		"/Users/MK/Dropbox/Academics/PT/IntroToPython_201609/Lecture_on_qt/test.py",
+		"/Users/MK/Dropbox/Academics/PT/IntroToPython_201609/Lecture1/fixme.py",
+		"/Users/MK/Desktop/alarmclock_svm_redo.py",
+		"/Users/MK/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"href",
+			"content",
+			"\"comments\"",
+			"id=\"comments\"",
+			"id = \"comments\"",
+			"comments\"",
+			"comment\"",
+			"comment",
+			"blog",
+			"page-title",
+			"feature-image",
+			"logo",
+			"border",
+			"img",
+			"section-header",
+			"row",
+			"testimonial",
+			"kudos",
+			"center",
+			";\n",
+			"container",
+			"speed",
+			"auto",
+			"container",
+			"auto",
+			"body",
+			"idx",
+			"list",
+			"self.W",
+			"hidden_op",
+			"Tried to guess",
+			"class Model",
+			"model",
+			"time2",
+			"time30",
+			"time.mp3",
+			"startsound",
+			"timetow",
+			"/wiki/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/MK/GitHub/mk-minchul.github.io/blog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/MK/GitHub/mk-minchul.github.io/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3460,
+								3460
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1028.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/MK/Downloads/test/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/MK/GitHub/mk-minchul.github.io/_posts/2014-3-3-cuda8gtx1070.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1002.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 366.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mkgithub.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 156.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

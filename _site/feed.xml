@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-03T13:05:03+09:00</updated><id>http://localhost:4000//</id><title type="html">Minchul Kim</title><subtitle>statistician</subtitle><entry><title type="html">How to install CUDA Toolkit with GTX1070 with Ubuntu 16.04</title><link href="http://localhost:4000/cuda8gtx1070/" rel="alternate" type="text/html" title="How to install CUDA Toolkit with GTX1070 with Ubuntu 16.04" /><published>2014-03-03T00:00:00+09:00</published><updated>2014-03-03T00:00:00+09:00</updated><id>http://localhost:4000/cuda8gtx1070</id><content type="html" xml:base="http://localhost:4000/cuda8gtx1070/">&lt;p&gt;&lt;img src=&quot;/assets/img/gtx1070.jpg&quot; alt=&quot;_config.yml&quot; class=&quot;mdimage&quot; /&gt; &lt;br /&gt;
+When I googled how to install CUDA toolkit on GTX1070, I came across multiple threads that explained how CUDA toolkit 8.0 cannot be installed with the new GTX 1070 (and 1080) because the card is newer than the toolkit and the drivers are not recognized by the toolkit. But when I proceeded to install CUDA toolkit 8.0 and to my surprise, I was able to have it configured without much of a hassle. So I figured it would serve well to lay out what I did.&lt;/p&gt;
+
+&lt;h3 id=&quot;hardware-configuration&quot;&gt;Hardware Configuration&lt;/h3&gt;
+
+&lt;p&gt;CPU: Core i5-6600(3.3GHz) / quadcore / Skylake 
+Mother Board: GIGABYTE GA-B150M-DS3H Durable Edition PC direct 
+Memory: Samsung DDR4 8GB PC4-19200  (X2) 
+GPU: ZOTAC GeForce GTX1070 MINi D5 8GB&lt;/p&gt;
+
+&lt;h3 id=&quot;software-configuration&quot;&gt;Software Configuration&lt;/h3&gt;
+&lt;p&gt;OS: Ubuntu 16.4&lt;/p&gt;
+
+&lt;p&gt;When you fresh install Ubuntu 16.4 and use the default NVidia graphic driver recommended by the software manager, Ubuntu automatically detects GTX1070 without a problem. Now it remains to install CUDA toolkit 8.0.&lt;/p&gt;
+
+&lt;h3 id=&quot;verify-the-system-running-ubuntu&quot;&gt;Verify the system running Ubuntu&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;verify which system the computer is running on. Type on the terminal:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$uname&lt;/span&gt; -m &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; cat /etc/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;release
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You should see a line with x86_64 if you are running a 64bit system.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;And verify that it has gcc installed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$gcc&lt;/span&gt; --version
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If gcc is not installed, install it first and proceed to the next.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;get the correct Linux kernel. &lt;br /&gt;
+According to the CUDA installation guide, CUDA Driver requires that the kernel header and the development packages for the running version of the OS be installed when CUDA is being installed. Although the installation using .deb file will generate the up to date header if no header exists, it might not be the same header for the running kernel. Therefore it is important to manually check that the correct header is installed for the running system. &lt;br /&gt;
+Type:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$uname&lt;/span&gt; -r 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;to check the current kernel, and type:&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$sudo&lt;/span&gt; apt-get install linux-header-&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;uname -r&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;to update it to the correct kernel.&lt;/p&gt;
+
+&lt;p&gt;Verifying the system process is necessary for you to know which version of the CUDA toolkit is right for you.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-cuda-toolkit-80&quot;&gt;Download CUDA toolkit 8.0&lt;/h3&gt;
+&lt;p&gt;Download Cuda Toolkit 8.0 from https://developer.nvidia.com/cuda-downloads. Download the appropriate file that matches your system configuration found above.&lt;/p&gt;
+
+&lt;h3 id=&quot;install&quot;&gt;Install&lt;/h3&gt;
+&lt;p&gt;And in the terminal, move to the directory where the download file is. For those who need a bit more clarification, if you download the file to the “downloads” folder, type:&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/downloads
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;At the time of writing the download file name was&lt;/p&gt;
+
+&lt;p&gt;cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64&lt;/p&gt;
+
+&lt;p&gt;Type the following code (with the file name appropriately changed if the name is different):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo dpkg -i cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64.deb
+sudo apt-get update
+sudo apt-get install cuda
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then reboot and set the environment variable by typing the followign code in the terminal:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64\
+{LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then test run the following code in the terminal.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$cuda-install-samples-8.0.sh ~
+$ cd ~/NVIDIA_CUDA-8.0_Samples/5_Simulations/nbody $ make
+$ ./nbody
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If a particle simulation window pops up, CUDA toolkit is correctly installed.&lt;/p&gt;</content><summary type="html">When I googled how to install CUDA toolkit on GTX1070, I came across multiple threads that explained how CUDA toolkit 8.0 cannot be installed with the new GTX 1070 (and 1080) because the card is newer than the toolkit and the drivers are not recognized by the toolkit. But when I proceeded to install CUDA toolkit 8.0 and to my surprise, I was able to have it configured without much of a hassle. So I figured it would serve well to lay out what I did.</summary></entry><entry><title type="html">First post!</title><link href="http://localhost:4000/Hello-World/" rel="alternate" type="text/html" title="First post!" /><published>2014-03-03T00:00:00+09:00</published><updated>2014-03-03T00:00:00+09:00</updated><id>http://localhost:4000/Hello-World</id><content type="html" xml:base="http://localhost:4000/Hello-World/">&lt;p&gt;&lt;img src=&quot;/assets/img/post1-bg.jpg&quot; alt=&quot;_config.yml&quot; class=&quot;mdimage&quot; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.&lt;/p&gt;
+
+&lt;p&gt;Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.&lt;/p&gt;
+
+&lt;p&gt;Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus.&lt;/p&gt;</content><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</summary></entry></feed>
